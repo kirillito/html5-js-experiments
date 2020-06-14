@@ -1,0 +1,26 @@
+{
+  "name": "html5-js-experiments",
+  "version": "1.0.0",
+  "description": "HTML5 and JS experiments for game development",
+  "main": "main.js",
+  "scripts": {
+    "start": "budo src/main.js:build.js --live -- -t [ babelify --presets [ env ] ]",
+    "build": "browserify src/main.js -o bundle.js -t [ babelify --presets [ env ] ]"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirillito/html5-js-experiments.git"
+  },
+  "author": "Kirill Bredikhin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirillito/html5-js-experiments/issues"
+  },
+  "homepage": "https://github.com/kirillito/html5-js-experiments#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^10.0.0",
+    "budo": "^11.6.3"
+  }
+}

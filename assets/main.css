@@ -1,0 +1,16 @@
+body, html {
+  /* Remove margins */
+  margin: 0px;
+  position: relative;
+  background-color: rgb(199, 201, 202);
+}
+#board {
+  /* Center the canvas */
+  margin: auto;
+  width: 640px;
+  height: 480px;
+}
+canvas {
+  margin: auto;
+  border: 1px solid black;
+}

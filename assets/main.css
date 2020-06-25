@@ -8,12 +8,16 @@ body, html {
 canvas {
   margin: auto;
   border: 1px solid white;
-  }
-
+}
+  
 a {
   color: white;
   font-size: 18px;
   font-weight: 700;
+}
+
+.link-list {
+  list-style: none;
 }
 
 #board {
